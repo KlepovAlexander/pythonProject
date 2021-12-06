@@ -1,14 +1,14 @@
 # Ассоциации аббревитур с названиями стран СНГ
 CIS_countries = {
-    'Россия': 'RU',
-    'Украина': 'UA',
-    'Белоруссия': 'BLR',
+    'Россия': 'RU',  # key:value
+    'Украина': 'UA',  # key:value
+    'Белоруссия': 'BLR',  # key:value
 }
 # Набор стран и городов (столиц)
 cities = {
-    'RU': 'Москва',
-    'UA': 'Киев',
-    'BLR': 'Минск'
+    'RU': 'Москва',  # key:value
+    'UA': 'Киев',  # key:value
+    'BLR': 'Минск'  # key:value
 }
 
 # Вывод городов
@@ -44,4 +44,4 @@ print('-' * 10)
 for CIS_countries_state, abbrev in list(CIS_countries.items()):
     print(f"В стране {CIS_countries_state} используется аббревиатура {abbrev}")
     print(f"И есть город {cities[abbrev]}")
-
+ #myr
